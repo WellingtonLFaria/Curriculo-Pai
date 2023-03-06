@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+    margin: 0px;
+    width: 2480px;
+    height: 3508px;
+}
+
+div.esquerda {
+    position: absolute;
+    display: block;
+    width: 8%;
+    height: 100%;
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+}
+
+div.direita {
+    position: absolute;
+    display: block;
+    height: 100%;
+    left: 8%;
+    margin-left: 30px;
+}
+
+.infos {
+    text-align: center;
+}
+
+.infos > h1 {
+    font-family: 'Lobster';
+    font-size: 2.2em;
+}
+
+
+.infos > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#intro {
+    width: 450px;
+}
+
+#lista {
+    width: 420px;
+}
+
+div.esquerda > section > p >  img {
+    display: inline;
+    width: 15px;
+    height: 15px;
+}

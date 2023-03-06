@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Lobster&display=swap');
+
+* {
+    font-family: Calibri, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+    margin: 0px;
+    width: 2480px;
+    height: 1280px;
+}
+
+.dados {
+    display: block;
+    width: 10%;
+    height: 100%;
+    background-color: #275950;
+    padding: 5px;
+    color: white;
+}
+
+.perfil {
+    display: block;
+    position: absolute;
+    height: 100%;
+    left: 10%;
+    bottom: 0%;
+    margin-left: 30px;
+}
+
+.pperfil {
+    width: 40%;
+}
+
+#lista {
+    width: 40%;
+}
+
+#nome {
+    text-align: center;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+#profissao {
+    text-align: center;
+}
+
+.dados > p > img {
+    width: 15px;
+    height: 15px;
+}
+
+.dados > img {
+    display: block;
+    margin: 20px auto 0px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.dados > h3 {
+    font-size: 1.3em;
+}
+
+.perfil > h1 {
+    font-size: 1.5em;
+}
+
+.perfil > h2 {
+    font-size: 1.3em;
+}
